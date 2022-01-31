@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+body {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.clearfix {
+    clear: both
+}
+
+/******* Header *******/
+
+.header {
+    text-align: center;
+}
+/******* Header *******/
+/**** Search ****/
+.search-bar {
+    text-align: center;
+    background-color: #eee;
+    width: 90%;
+    margin: auto;
+    padding: 2px;
+}
+
+.input  {
+    display: inline-block;
+    width: 320px;
+    height: 22px;
+    padding: 1px 2px;
+    border: 1px solid #000;
+}
+input[type=submit] {
+    display: inline-block;
+    padding: 1px 6px;
+}
+/**** Search ****/
+
+.links   {
+    width: 90%;
+    margin: auto;
+    margin-top: 2px;
+}
+/* Left Section */
+.special-searches {
+    width: 33%;
+    height: 85px;
+    text-align: center;
+    background-color:#7EE5DA;
+    padding: 15px 20px;
+    float: left;
+    margin-right: 2px;
+}
+.special-searches li{
+    list-style-type: none;
+}
+/* Left Section */
+/* Middle Section */
+.middle-section {
+    width: 22%;
+    height: 85px;
+    text-align: center;
+    background-color: #70CCC2;
+    float: left;
+    padding: 5px 30px;
+    margin-right: 2px;
+}
+
+.middle-section li {
+    list-style-type: none;
+}
+/* Middle Section */
+/* Right Section */
+.right-section {
+    width: 44%;
+    height: 85px;
+    float: left;
+    text-align: center;
+    background-color: #62B3AA;
+    padding: 7px;
+    margin-left: 1px;
+}
+.right-section p {
+    font-size: 13px;
+}
+.subscribe-email {
+    display: inline-block;
+}
+.archive {
+    font-size: 13px;
+}
+/* Right Section */
+/* footer */
+.footer {
+    text-align: center;
+    width:90%;
+    margin: auto;
+    padding: 20px 10px;
+}
+/* footer */
